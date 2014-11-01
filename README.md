@@ -8,4 +8,4 @@
 
 	- Import the autosearch.sql file to your database
 
-	- Run the app by going to your server. Enjoy!
+	- Run the app by going to your server url. Enjoy!
