@@ -11,19 +11,28 @@ $(document).ready(function(){
 
 		if(value != ''){
 
+			$('#search_result').show();
+
 			var send = {
 				action : "go_search",
 				value : value
 			};
 
+			
+
 			$.ajax({
 				type : 'GET',
 				url : 'search.php',
-				data : send,
+				cache: false,
+  				data : send,
 				success:function(r){
-					$('#search_result').html(r);
+					
+					$('#search_result').html(r).show();
+
 				}
 			}) 
+		}else{
+			$('#search_result').hide();
 		}
 	})
 })

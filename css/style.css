@@ -39,4 +39,28 @@ button:hover{
 	background:#fff;
 	color:#333;
 	position:absolute;
+	display: none;
+}
+
+a{
+	
+	color: #000;
+	text-decoration: none;
+	padding: 5px;
+	display:block;
+}
+
+a:hover{
+	background:#fff;
+	color:#4aaee7;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+li{
+	padding:0px;
 }
