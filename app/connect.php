@@ -1,5 +1,5 @@
 <?php
 
-$db = new PDO('mysql:dbname=autosearch; host=localhost', 'root', 'nick12');
+$db = new PDO('mysql:dbname=autosearch; host=localhost', 'root', 'nick123');
 
 ?>
